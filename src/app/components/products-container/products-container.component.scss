@@ -12,4 +12,33 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .title {
+        display: flex;
+        // margin-top: 4vw;
+        
+        .text {
+            height: 200px;
+            display: flex;
+            align-items: center;
+            font-size: 2rem;
+            font-weight: bolder;
+
+            p {
+                margin-top: 6vw;
+            }
+        }
+
+        .img {
+            background: rgba(255, 0, 0, 0);
+            width: 200px;
+            position: absolute;
+            left: calc(50% - 18%);
+
+            img {
+                width: 13vw;
+                height: auto;
+            }
+        }
+    }
 }

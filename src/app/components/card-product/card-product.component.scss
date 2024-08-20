@@ -1,0 +1,19 @@
+
+
+@import '../../../assets/styles/colors.scss';
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid $myOrange;
+}
+.container-product {
+    margin: 2vw 2vw;
+    padding: 2vw 2vw;
+    border-radius: 10px;
+    color: $myTextWhite;
+    border: 2px solid $myOrange;
+    border-bottom: 3px solid $myOrange;
+    box-shadow: 2px 2px 15px $myTextWhite;
+}

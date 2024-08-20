@@ -1,0 +1,15 @@
+
+@import '../../../assets/styles/colors.scss';
+
+.container-center {
+    display: grid;
+    place-items: center;
+    margin: 2vw 0%; 
+
+    .container-products {
+        width: 80vw;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,110 @@
+
+@import '../../../assets/styles/colors.scss';
+
+.componente-navbar {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0%;
+    font-size: 2vw;
+    background: rgba(0, 0, 0, 0.5);
+
+    .logo-home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        margin-right: 5%;
+
+        img {
+            width: 30%;
+            height: auto;
+        }
+    }
+    .links {
+        width: 48%;
+        margin-right: 11%;
+
+        .desktopPc {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-family: 'Lora';
+    
+            p {
+                text-decoration: none;
+                color: $myTextWhite;
+                border-bottom: 2px solid $myOrange;
+                cursor: pointer;
+            }
+            p:hover {
+                color: $myOrangeHover;
+                font-weight: bold;
+            }
+        }
+        .smartphone {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+
+            .hamburguer {
+                width: 10%;
+                height: 10%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .smartphone-toggle{
+                position: absolute;
+                top: 150%;
+                width: 80%;
+                border: 1px solid $myOrange;
+                border-radius: 12%;
+                background-color: $myBlackOpacity;
+                color: $myTextWhite;
+                font-weight: bold;
+                box-shadow: 0 4px 8px $myOrange;
+
+                ul {
+                    all: unset;
+                    list-style-type: none;
+
+                    li {
+                        margin: 4vw;
+                    }
+                    li:hover {
+                        color: $myOrange;
+                    }
+                }
+            }
+        }
+    }
+    .signature {
+        display: flex;
+        justify-content: right;
+        width: 15%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .componente-navbar {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        padding: 0%;
+        position: fixed;
+        top: 0%;
+    }
+}

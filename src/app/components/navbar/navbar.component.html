@@ -1,0 +1,38 @@
+<div class="componente-navbar">
+    <div class="logo-home">
+        <img src="../../../assets/img/nuevoLogo.png" alt="">
+    </div>
+    <div class="links">
+        <div class="desktopPc" *ngIf="!smartphone">
+            <div class="">
+                <p href="">Contacto</p>
+            </div>
+            <div class="">
+                <p href="">Productos</p>
+            </div>
+            <div class="">
+                <p href="">Redes Sociales</p>
+            </div>
+            <div class="">
+                <p href="">Galeria</p>
+            </div>
+        </div>
+        <div class="smartphone" *ngIf="smartphone">
+            <div class="hamburguer" (click)="changeBoolean('smartphone_toggle')">
+                <img *ngIf="!smartphone_toggle" src="../../../assets/img/hamburguer.png" alt="">
+                <img *ngIf="smartphone_toggle" src="../../../assets/img/hamburguerExit.png" alt="">
+            </div>
+            <div class="smartphone-toggle" *ngIf="smartphone_toggle">
+                <ul>
+                    <li>Contacto</li>
+                    <li>Productos</li>
+                    <li>Redes Sociales</li>
+                    <li>Galeria</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="signature">
+        <img src="../../../assets/img/signature.webp" alt="">
+    </div>
+</div>

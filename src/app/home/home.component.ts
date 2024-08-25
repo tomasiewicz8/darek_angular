@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { BackgroundComponent } from '../components/background/background.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
 import { ProductsContainerComponent } from '../components/products-container/products-container.component';
+import { GaleryComponent } from '../components/galery/galery.component';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +10,8 @@ import { ProductsContainerComponent } from '../components/products-container/pro
   imports: [
     BackgroundComponent,
     NavbarComponent,
-    ProductsContainerComponent
+    ProductsContainerComponent,
+    GaleryComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

@@ -3,6 +3,7 @@ import { BackgroundComponent } from '../components/background/background.compone
 import { NavbarComponent } from '../components/navbar/navbar.component';
 import { ProductsContainerComponent } from '../components/products-container/products-container.component';
 import { GaleryComponent } from '../components/galery/galery.component';
+import { FooterComponent } from '../components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,8 @@ import { GaleryComponent } from '../components/galery/galery.component';
     BackgroundComponent,
     NavbarComponent,
     ProductsContainerComponent,
-    GaleryComponent
+    GaleryComponent,
+    FooterComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

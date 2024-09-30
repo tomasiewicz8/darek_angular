@@ -4,17 +4,17 @@
     </div>
     <div class="links">
         <div class="desktopPc" *ngIf="!smartphone">
-            <div class="">
-                <p href="">Contacto</p>
+            <div>
+                <a href="#contact-us">Contacto</a>
             </div>
-            <div class="">
-                <p href="">Productos</p>
+            <div>
+                <a href="#container-center">Productos</a>
             </div>
-            <div class="">
-                <p href="">Redes Sociales</p>
+            <div>
+                <a href="#social-media">Redes Sociales</a>
             </div>
-            <div class="">
-                <p href="">Galeria</p>
+            <div>
+                <a href="#element">Galeria</a>
             </div>
         </div>
         <div class="smartphone" *ngIf="smartphone">
@@ -24,10 +24,10 @@
             </div>
             <div class="smartphone-toggle" *ngIf="smartphone_toggle">
                 <ul>
-                    <li>Contacto</li>
-                    <li>Productos</li>
-                    <li>Redes Sociales</li>
-                    <li>Galeria</li>
+                    <li><a (click)="changeBoolean('smartphone_toggle')" href="#contact-us">Contacto</a></li>
+                    <li><a (click)="changeBoolean('smartphone_toggle')" href="#container-center">Productos</a></li>
+                    <li><a (click)="changeBoolean('smartphone_toggle')" href="#social-media">Redes Sociales</a></li>
+                    <li><a (click)="changeBoolean('smartphone_toggle')" href="#element">Galeria</a></li>
                 </ul>
             </div>
         </div>

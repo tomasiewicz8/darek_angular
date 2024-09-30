@@ -5,27 +5,23 @@
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     top: 0%;
-    font-size: 2vw;
-    background: rgba(0, 0, 0, 0.5);
+    font-size: 4vw;
+    background: $myBlackOpacity;
 
     .logo-home {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 15%;
-        margin-right: 5%;
+        width: 10%;
+        margin: 3vw 10vw 3vw 8vw;
 
         img {
-            width: 30%;
+            width: 100%;
             height: auto;
         }
     }
     .links {
-        width: 48%;
-        margin-right: 11%;
+        width: 30%;
 
         .desktopPc {
             display: flex;
@@ -33,13 +29,13 @@
             width: 100%;
             font-family: 'Lora';
     
-            p {
+            a {
                 text-decoration: none;
                 color: $myTextWhite;
                 border-bottom: 2px solid $myOrange;
                 cursor: pointer;
             }
-            p:hover {
+            a:hover {
                 color: $myOrangeHover;
                 font-weight: bold;
             }
@@ -53,8 +49,8 @@
             position: relative;
 
             .hamburguer {
-                width: 10%;
-                height: 10%;
+                width: 40%;
+                height: auto;
 
                 img {
                     width: 100%;
@@ -63,11 +59,11 @@
             }
             .smartphone-toggle{
                 position: absolute;
-                top: 150%;
-                width: 80%;
+                top: 200%;
+                width: 160%;
                 border: 1px solid $myOrange;
                 border-radius: 12%;
-                background-color: $myBlackOpacity;
+                background-color: rgba(0, 0, 0, 0.8);
                 color: $myTextWhite;
                 font-weight: bold;
                 box-shadow: 0 4px 8px $myOrange;
@@ -76,8 +72,18 @@
                     all: unset;
                     list-style-type: none;
 
+                    a * {
+                        text-decoration: none;
+                        color: $myTextWhite;
+                    }
                     li {
                         margin: 4vw;
+
+                        a {
+                            text-decoration: none;
+                            color: $myTextWhite;
+                            cursor: pointer;
+                        }
                     }
                     li:hover {
                         color: $myOrange;
@@ -88,23 +94,130 @@
     }
     .signature {
         display: flex;
-        justify-content: right;
-        width: 15%;
+        justify-content: left;
+        width: 25%;
+        padding: 2vw;
 
         img {
-            width: 100%;
+            width: 90%;
             height: auto;
         }
     }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 450px) and (max-width: 950px) {
     .componente-navbar {
         display: flex;
         text-align: center;
         align-items: center;
-        padding: 0%;
+        justify-content: space-between;
         position: fixed;
         top: 0%;
+        font-size: 2vw;
+        background: $myBlackOpacity;
+    
+        .logo-home {
+            width: 8%;
+            margin: 1.5vw 0vw 1.5vw 3vw;
+    
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .links {
+            width: 70%;
+    
+            .desktopPc {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                font-family: 'Lora';
+        
+                a {
+                    text-decoration: none;
+                    color: $myTextWhite;
+                    margin: 0vw 3vw;
+                    border-bottom: 2px solid $myOrange;
+                    cursor: pointer;
+                }
+                a:hover {
+                    color: $myOrangeHover;
+                    font-weight: bold;
+                }
+            }
+        }
+        .signature {
+            display: flex;
+            justify-content: left;
+            width: 20%;
+            padding: 2vw;
+    
+            img {
+                width: 90%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (min-width: 950px) {
+    .componente-navbar {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0%;
+        font-size: 2vw;
+        background: rgba(0, 0, 0, 0.5);
+    
+        .logo-home {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            width: 12%;
+            margin-right: 0%;
+            margin: 0vw 0vw 0vw 0vw;
+    
+            img {
+                width: 35%;
+                height: auto;
+            }
+        }
+        .links {
+            width: 58%;
+            margin-right: 5%;
+    
+            .desktopPc {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                font-family: 'Lora';
+        
+                a {
+                    text-decoration: none;
+                    color: $myTextWhite;
+                    margin: 0vw 2vw;
+                    border-bottom: 2px solid $myOrange;
+                    cursor: pointer;
+                }
+                a:hover {
+                    color: $myOrangeHover;
+                    font-weight: bold;
+                }
+            }
+        }
+        .signature {
+            display: flex;
+            justify-content: right;
+            width: 10%;
+    
+            img {
+                width: 100%;
+                height: auto;
+                margin: -1vw 0vw;
+            }
+        }
     }
 }

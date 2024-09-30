@@ -2,18 +2,48 @@
 
 @import '../../../assets/styles/colors.scss';
 
-
 .container-product {
-    margin: 4vw 4vw;
-    padding: 2vw 2vw;
+    margin: 15vw 4vw;
+    padding: 6vw 6vw;
     border-radius: 10px;
     color: $myTextWhite;
     box-shadow: 0 0 5px orange, 0 0 10px yellow, 0 0 20px red;
+    height: 450px;
 
     img {
         width: 100%;
         height: auto;
         border-radius: 50%;
         border: 2px solid rgb(255, 152, 69);
+    }
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+    .container-product {
+        margin: 4vw 4vw;
+        padding: 2vw 2vw;
+        border-radius: 10px;
+        height: 420px;
+    
+        img {
+            width: 90%;
+            height: auto;
+            margin: 1vw 1vw;
+        }
+    }
+}
+
+@media (min-width: 950px) {
+    .container-product {
+        margin: 4vw 4vw;
+        padding: 2vw 2vw;
+        border-radius: 10px;
+        height: 420px;
+    
+        img {
+            width: 100%;
+            height: auto;
+            margin: 0vw 0vw;
+        }
     }
 }

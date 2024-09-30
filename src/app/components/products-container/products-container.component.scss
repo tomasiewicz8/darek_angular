@@ -10,35 +10,56 @@
         width: 80vw;
         height: auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .title {
         display: flex;
-        // margin-top: 4vw;
         
         .text {
-            height: 200px;
+            height: 20vw;
             display: flex;
             align-items: center;
-            font-size: 2rem;
+            font-size: 6vw;
             font-weight: bolder;
 
             p {
                 margin-top: 6vw;
             }
         }
+    }
+}
 
-        .img {
-            background: rgba(255, 0, 0, 0);
-            width: 200px;
-            position: absolute;
-            left: calc(50% - 18%);
+@media (min-width: 450px) and (max-width: 950px) {
 
-            img {
-                width: 13vw;
-                height: auto;
+    .container-center {
+    
+        .container-products {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .title {
+            
+            .text {
+                font-size: 3vw;
             }
         }
     }
+
+}
+
+@media (min-width: 950px) {
+
+    .container-center {
+    
+        .container-products {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .title {
+            
+            .text {
+                font-size: 3vw;
+            }
+        }
+    }
+
 }

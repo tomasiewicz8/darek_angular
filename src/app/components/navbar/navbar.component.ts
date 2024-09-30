@@ -25,7 +25,7 @@ export class NavbarComponent {
 
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
-    if (window.innerWidth >= 500) {
+    if (window.innerWidth >= 450) {
       this.smartphone = false;
     } else {
       this.smartphone = true;

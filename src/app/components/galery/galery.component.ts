@@ -22,7 +22,7 @@ export class GaleryComponent {
       if (this.interval_number == products_galery.length - 1) {
         this.interval_number = 0;
       }
-    }, 2000)
+    }, 2500)
   }
 
   ngOnDestroy() {

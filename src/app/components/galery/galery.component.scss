@@ -5,16 +5,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10% 0vw;
+    margin: 30% 0vw;
 
     .image {
-        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         height: auto;
+        overflow: hidden;
     
         img {
             width: 100%;
             height: auto;
         }
     
+    }
+}
+
+@media (min-width: 450px) and (max-width: 950px) {
+
+    .galery {
+        margin: 20% 0vw;
+    
+        .image {
+            width: 100%;
+            height: auto;
+        
+            img {
+                width: 70%;
+                height: auto;
+            }
+        
+        }
+    }
+}
+
+@media (min-width: 950px) {
+
+    .galery {
+        margin: 10% 0vw;
+    
+        .image {
+            width: 50%;
+            height: auto;
+        
+            img {
+                width: 100%;
+                height: auto;
+            }
+        
+        }
     }
 }

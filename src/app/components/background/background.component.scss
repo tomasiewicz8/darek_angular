@@ -2,11 +2,39 @@
 .component-background {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     overflow: hidden;
+    position: relative;
+
+    img {
+        width: auto;
+        height: 100%;
+        transform: translate(-200px, 0px);
+    }
 }
 
-.component-background img {
-    width: 100%;
-    height: 100vh;
+@media (min-width: 450px) and (max-width: 950px) {
+    .component-background {
+        width: 100vw;
+        height: 100vh;
+    
+        img {
+            width: auto;
+            height: 100%;
+            transform: translate(0px, 0px);
+        }
+    }
+}
+
+@media (min-width: 950px) {
+    .component-background {
+        width: 100vw;
+        height: 100vh;
+    
+        img {
+            width: 100%;
+            height: auto;
+            transform: translate(0px, 0px);
+        }
+    }
 }

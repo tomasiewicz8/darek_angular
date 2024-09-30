@@ -4,16 +4,26 @@
 
 .first-part-footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
     border-top: 2px solid $myOrange;
-    padding: 3vw 0vw;
+    padding: 3vw 6vw;
+    width: 88vw;
+    height: auto;
+    font-size: 2.5vw;
 
     .title {
-        font-size: 1.5rem;
+        font-size: 4vw;
         border-bottom: 1px solid $myOrange;
     }
-    
+    .about-us_contact-us {
+        display: flex;
+        justify-content: space-between;
+        width: 88%;
+    }
+    .send-information-marketing {
+        width: 88%;
+    }
     .input-send {
         display: flex;
         align-items: center;
@@ -21,8 +31,8 @@
         input {
             background: transparent;
             border: 1px solid $myOrangeOpacity;
-            height: 1vw;
-            width: 12vw;
+            height: 4vw;
+            width: 45vw;
             padding: 0.5vw;
             border-radius: 5px;
         }
@@ -34,33 +44,191 @@
             border: 1px solid $myOrange;
             color: $myOrange;
         }
+        input::placeholder {
+            font-size: 2.5vw;
+        }
         button {
             background: transparent;
             border: none;
-            height: 2.3vw;
-            width: 4vw;
+            cursor: pointer;
+            width: 10vw;
+            height: auto;
     
             img {
                 width: 100%;
-                height: 100%;
+                height: auto;
+            }
+        }
+    }
+    .contact-us, .about-us {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            margin-bottom: 12%;
+            cursor: pointer;
+            color: $myTextWhite;
+            text-decoration: none;
+        }
+    }
+}
+
+.second-part-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-top: 3px solid $myOrangeOpacity;
+    align-items: center;
+    height: 5vw;
+    font-size: 2.0vw;
+    padding: 1vw 0vw;
+    width: 100%;
+    height: auto;
+
+    .information-social-media {
+        display: flex;
+        margin: 3vw 0vw;
+
+        img {
+            width: 10vw;
+            height: auto;
+        }
+    }
+    .information-developer {
+        cursor: pointer;
+        margin-bottom: 2vw;
+
+        a {
+            text-decoration: none;
+            color: $myTextWhite;
+        }
+        .developer-create {
+    
+            img {
+                width: 5vw;
+                height: auto;
             }
         }
     }
     
 }
 
-.second-part-footer {
-    display: flex;
-    justify-content: space-around;
-    border-top: 3px solid $myOrangeOpacity;
-    align-items: center;
-    height: 5vw;
+@media (min-width: 450px) and (max-width: 950px) {
 
-    .information-social-media {
+}
+
+@media (min-width: 950px) {
+
+    .first-part-footer {
         display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        border-top: 2px solid $myOrange;
+        padding: 3vw 0vw;
+        font-size: 1vw;
+        width: 100%;
+    
+        .title {
+            font-size: 2vw;
+            border-bottom: 1px solid $myOrange;
+        }
+        .send-information-marketing {
+            width: 25%;
+            margin-right: 15%;
+            margin-left: 5%;
+        }
+        .about-us_contact-us {
+            margin-right: 10%;
+        }
+        .contact-us, .about-us {
+            width: 25%;
+            margin-top: 1vw;
+        }
+        .input-send {
+            display: flex;
+            align-items: center;
+    
+            input {
+                background: transparent;
+                border: 1px solid $myOrangeOpacity;
+                height: 1vw;
+                width: 16.5vw;
+                padding: 0.5vw;
+                border-radius: 5px;
+            }
+            input:hover {
+                border: 1px solid $myOrange;
+            }
+            input:focus {
+                outline: none;
+                border: 1px solid $myOrange;
+                color: $myOrange;
+            }
+            input::placeholder {
+                font-size: 1vw;
+            }
+            button {
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                width: 3vw;
+                height: auto;
+        
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .contact-us {
+            display: flex;
+            flex-direction: column;
+    
+            a {
+                margin-bottom: 12%;
+                cursor: pointer;
+                color: $myTextWhite;
+                text-decoration: none;
+            }
+        }
     }
-    img {
-        width: 50px;
-        height: auto;
+
+    .second-part-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border-top: 3px solid $myOrangeOpacity;
+        align-items: center;
+        font-size: 1vw;
+        width: 100%;
+    
+        .information-social-media {
+            display: flex;
+            margin: 1vw 0vw;
+    
+            img {
+                width: 5vw;
+                height: auto;
+            }
+        }
+        .information-developer {
+            cursor: pointer;
+            margin-bottom: 0vw;
+    
+            a {
+                text-decoration: none;
+                color: $myTextWhite;
+            }
+            .developer-create {
+        
+                img {
+                    width: 3vw;
+                    height: auto;
+                }
+            }
+        }
+        
     }
+
 }

@@ -114,7 +114,20 @@
 }
 
 @media (min-width: 450px) and (max-width: 950px) {
+    .first-part-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 2px solid $myOrange;
+        padding: 3vw 6vw;
+        width: 85vw;
+        height: auto;
+        font-size: 2vw;
 
+        .title {
+            font-size: 3vw;
+        }
+    }
 }
 
 @media (min-width: 950px) {

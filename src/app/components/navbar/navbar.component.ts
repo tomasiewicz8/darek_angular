@@ -16,7 +16,7 @@ export class NavbarComponent {
 
   productsVisible: boolean = false;
   smartphone_toggle: boolean = false;
-  smartphone: boolean = false;
+  smartphone: boolean = true;
   [key: string]: any;
 
   changeBoolean(propertyName: string) {

@@ -19,12 +19,20 @@ export class NavbarComponent {
   smartphone: boolean = true;
   [key: string]: any;
 
+  ngOnInit() {
+    this.checkWindowSize();
+  }
+
   changeBoolean(propertyName: string) {
       this[propertyName] = !this[propertyName];
   }
 
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
+    this.checkWindowSize();
+  }
+
+  checkWindowSize() {
     if (window.innerWidth >= 450) {
       this.smartphone = false;
     } else {

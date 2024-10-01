@@ -149,13 +149,13 @@
         }
         .signature {
             display: flex;
-            justify-content: left;
-            width: 20%;
-            padding: 2vw;
+            justify-content: right;
+            width: 10%;
     
             img {
-                width: 90%;
+                width: 100%;
                 height: auto;
+                margin: -1vw 0vw;
             }
         }
     }

@@ -1,12 +1,48 @@
 [
     {
-        "id": 1,
-        "name": "cuerda",
-        "image": "cuerda",
-        "title": "Cuerda de alta resistencia",
-        "text": "Esta cuerda robusta añade un toque rústico y elegante a cualquier espacio. Personaliza su longitud y detalles para un estilo único.",
-        "price": "130€",
-        "alt": "Cuerda de alta resistencia de color claro enrollada"
+        "id": 6,
+        "name": "portico",
+        "image": "portico",
+        "title": "Pórtico portátil",
+        "text": "Este pórtico de acero es resistente y fácil de montar. Ideal para prácticas aéreas al aire libre, como telas o aros, en cualquier lugar.",
+        "price": "1200€",
+        "alt": "Pórtico portátil de acero para ejercicios aéreos"
+    },
+    {
+        "id": 7,
+        "name": "portico_dos",
+        "image": "portico_dos",
+        "title": "Pórtico compacto",
+        "text": "Perfecto para espacios reducidos, este pórtico ofrece seguridad para disciplinas aéreas. Su tamaño compacto es ideal para entrenar.",
+        "price": "900€",
+        "alt": "Pórtico compacto de acero para entrenamiento en espacios reducidos"
+    },
+    {
+        "id": 9,
+        "name": "slike_line",
+        "image": "slike_line",
+        "title": "Barra de equilibrio",
+        "text": "Esta barra de acero es perfecta para entrenar equilibrio y coordinación. Ideal tanto en interiores como exteriores, ofrece estabilidad.",
+        "price": "1000€",
+        "alt": "Barra de equilibrio de acero para entrenamiento de coordinación"
+    },
+    {
+        "id": 13,
+        "name": "estructura",
+        "image": "estructura",
+        "title": "Estructura modular",
+        "text": "Resistente estructura de acero con diseño modular, adaptable a múltiples usos: desde entrenamientos hasta montaje de equipos técnicos.",
+        "price": "1000€",
+        "alt": "Estructura modular de acero para usos múltiples"
+    },
+    {
+        "id": 6,
+        "name": "portico",
+        "image": "portico_tres",
+        "title": "Pórtico portátil",
+        "text": "Este pórtico de acero es resistente y fácil de montar. Ideal para prácticas aéreas al aire libre, como telas o aros, en cualquier lugar.",
+        "price": "1200€",
+        "alt": "Pórtico portátil de acero para ejercicios aéreos"
     },
     {
         "id": 2,
@@ -32,26 +68,8 @@
         "image": "paralelas",
         "title": "Paralelas de madera",
         "text": "Perfectas para acrobacias y entrenamiento de fuerza. Fabricadas en madera, ofrecen firmeza y estabilidad para cualquier ejercicio.",
-        "price": "30€",
+        "price": "20€",
         "alt": "Paralelas de madera robustas para entrenamiento de fuerza y equilibrio"
-    },
-    {
-        "id": 6,
-        "name": "portico",
-        "image": "portico",
-        "title": "Pórtico portátil",
-        "text": "Este pórtico de acero es resistente y fácil de montar. Ideal para prácticas aéreas al aire libre, como telas o aros, en cualquier lugar.",
-        "price": "1800€",
-        "alt": "Pórtico portátil de acero para ejercicios aéreos"
-    },
-    {
-        "id": 7,
-        "name": "portico_dos",
-        "image": "portico_dos",
-        "title": "Pórtico compacto",
-        "text": "Perfecto para espacios reducidos, este pórtico ofrece seguridad para disciplinas aéreas. Su tamaño compacto es ideal para entrenar.",
-        "price": "1300€",
-        "alt": "Pórtico compacto de acero para entrenamiento en espacios reducidos"
     },
     {
         "id": 8,
@@ -63,22 +81,31 @@
         "alt": "Pulls fijos de acero y madera para ejercicios de equilibrio"
     },
     {
-        "id": 9,
-        "name": "slike_line",
-        "image": "slike_line",
-        "title": "Barra de equilibrio",
-        "text": "Esta barra de acero es perfecta para entrenar equilibrio y coordinación. Ideal tanto en interiores como exteriores, ofrece estabilidad.",
-        "price": "1600€",
-        "alt": "Barra de equilibrio de acero para entrenamiento de coordinación"
+        "id": 16,
+        "name": "pulls_desmontables",
+        "image": "pulls_desmontables",
+        "title": "Pulls Desmontables",
+        "text": "Fáciles de montar y desmontar, con ajuste cónico para máxima seguridad. Ideales para entrenar en cualquier lugar gracias a su estabilidad y despliegue rápido.",
+        "price": "170€",
+        "alt": "Pulls fijos de acero y madera para ejercicios de equilibrio"
+    },
+    {
+        "id": 17,
+        "name": "pulls_desmontables",
+        "image": "pulls_desmontables_dos",
+        "title": "Pulls Desmontables",
+        "text": "Fáciles de montar y desmontar, con ajuste cónico para máxima seguridad. Ideales para entrenar en cualquier lugar gracias a su estabilidad y despliegue rápido.",
+        "price": "190€",
+        "alt": "Pulls fijos de acero y madera para ejercicios de equilibrio"
     },
     {
         "id": 10,
         "name": "base_pulls",
         "image": "base_pulls",
-        "title": "Base giratoria para pulls",
+        "title": "Base de madera para pulls",
         "text": "Base de madera diseñada para insertar soportes cónicos. Facilita ejercicios de equilibrio mientras giras, con estabilidad asegurada.",
         "price": "700€",
-        "alt": "Base giratoria de madera para soportes cónicos en ejercicios de equilibrio"
+        "alt": "Base de madera para soportes cónicos en ejercicios de equilibrio"
     },
     {
         "id": 11,
@@ -97,15 +124,6 @@
         "text": "Divertido porta-macetas en forma de hormiga. Hecho en acero, es ideal para resaltar plantas en jardines o interiores con creatividad.",
         "price": "60€",
         "alt": "Porta-macetas en forma de hormiga sosteniendo una maceta pequeña"
-    },
-    {
-        "id": 13,
-        "name": "estructura",
-        "image": "estructura",
-        "title": "Estructura modular",
-        "text": "Resistente estructura de acero con diseño modular, adaptable a múltiples usos: desde entrenamientos hasta montaje de equipos técnicos.",
-        "price": "1000€",
-        "alt": "Estructura modular de acero para usos múltiples"
     },
     {
         "id": 14,

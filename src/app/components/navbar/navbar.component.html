@@ -21,8 +21,8 @@
         </div>
         <div class="smartphone" *ngIf="smartphone">
             <div class="hamburguer" (click)="changeBoolean('smartphone_toggle')">
-                <img *ngIf="!smartphone_toggle" src="../../../assets/img/hamburguer.png" alt="">
-                <img *ngIf="smartphone_toggle" src="../../../assets/img/hamburguerExit.png" alt="">
+                <img *ngIf="!smartphone_toggle" src="../../../assets/img/hamburguer.png" alt="Abrir menu desplegable">
+                <img *ngIf="smartphone_toggle" src="../../../assets/img/hamburguerExit.png" alt="Cerrar menu desplegable">
             </div>
             <div class="smartphone-toggle" *ngIf="smartphone_toggle">
                 <ul>
@@ -35,6 +35,6 @@
         </div>
     </div>
     <div class="signature">
-        <img src="../../../assets/img/signature.webp" alt="">
+        <img src="../../../assets/img/signature.webp" alt="Firma del autor">
     </div>
 </div>

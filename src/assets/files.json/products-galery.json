@@ -1,12 +1,84 @@
 
 [
-    {"id": 1, "name": "cuerda", "image": "cuerda", "title": "Cuerda", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 2, "name": "pulls", "image": "pulls", "title": "pulls", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 3, "name": "luna", "image": "luna", "title": "Luna", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 4, "name": "cabecero", "image": "cabecero", "title": "cabecero", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 5, "name": "paralelas", "image": "paralelas", "title": "Paralelas", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 6, "name": "mesa", "image": "mesa", "title": "mesa", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 7, "name": "base_pulls", "image": "base_pulls", "title": "base_pulls", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 8, "name": "pulls_fijos", "image": "pulls_fijos", "title": "Pulls fijos", "text": "mejor producto", "price": 100, "alt": ""},
-    {"id": 10, "name": "estufa", "image": "estufa", "title": "estufa", "text": "mejor producto", "price": 100, "alt": ""}
+    {
+        "id": 2,
+        "name": "estufa",
+        "image": "estufa",
+        "title": "Estufa rústica de acero",
+        "text": "Una pieza robusta que ofrece calidez y estilo industrial. Ideal para crear ambientes funcionales con mucho carácter en el hogar.",
+        "price": "150€",
+        "alt": "Estufa rústica de acero negra con puerta abierta"
+    },
+    {
+        "id": 3,
+        "name": "luna",
+        "image": "luna",
+        "title": "Aro Lunar",
+        "text": "Este aro lunar de acero es ideal para números aéreos en circo. Ofrece seguridad y estilo, adaptable a cualquier escenario técnico.",
+        "price": "180€",
+        "alt": "Aro lunar de acero rojo colgante utilizado para acrobacias aéreas"
+    },
+    {
+        "id": 5,
+        "name": "paralelas",
+        "image": "paralelas",
+        "title": "Paralelas de madera",
+        "text": "Perfectas para acrobacias y entrenamiento de fuerza. Fabricadas en madera, ofrecen firmeza y estabilidad para cualquier ejercicio.",
+        "price": "20€",
+        "alt": "Paralelas de madera robustas para entrenamiento de fuerza y equilibrio"
+    },
+    {
+        "id": 17,
+        "name": "paralelas_icons",
+        "image": "paralelas_icons",
+        "title": "Paralelas serigrafiadas",
+        "text": "Perfectas para acrobacias y entrenamiento de fuerza con tus logos y textos preferidos. Fabricadas en madera, ofrecen firmeza y estabilidad para cualquier ejercicio.",
+        "price": "26€",
+        "alt": "Paralelas de madera serigrafiadas y robustas para entrenamiento de fuerza y equilibrio"
+    },
+    {
+        "id": 8,
+        "name": "pulls_fijos",
+        "image": "pulls_fijos",
+        "title": "Pulls fijos",
+        "text": "Diseñados para ejercicios de equilibrio y mano a mano. Hechos de acero y madera, ofrecen estabilidad para entrenamientos exigentes.",
+        "price": "70€",
+        "alt": "Pulls fijos de acero y madera para ejercicios de equilibrio"
+    },
+    {
+        "id": 16,
+        "name": "pulls_desmontables",
+        "image": "pulls_desmontables",
+        "title": "Pulls Desmontables",
+        "text": "Fáciles de montar y desmontar, con ajuste cónico para máxima seguridad. Ideales para entrenar en cualquier lugar gracias a su despliegue rápido.",
+        "price": "170€",
+        "alt": "Pulls desmontables fijos de acero y madera para ejercicios de equilibrio"
+    },
+    {
+        "id": 10,
+        "name": "base_pulls",
+        "image": "base_pulls",
+        "title": "Base de madera para pulls",
+        "text": "Base de madera diseñada para insertar soportes cónicos. Facilita ejercicios de equilibrio mientras giras, con estabilidad asegurada.",
+        "price": "300€",
+        "alt": "Base de madera para soportes cónicos en ejercicios de equilibrio"
+    },
+    {
+        "id": 14,
+        "name": "mesa",
+        "image": "mesa",
+        "title": "Mesa Lunar de madera",
+        "text": "Mesa sencilla y moderna que combina una base de acero con una superficie de madera. Ideal para dar un toque contemporáneo a tu espacio.",
+        "price": "80€",
+        "alt": "Mesa auxiliar circular de madera con base de acero"
+    },
+    {
+        "id": 15,
+        "name": "cabecero",
+        "image": "cabecero",
+        "title": "Cabecero Spider",
+        "text": "Cabecero de acero inspirado en telarañas, con un diseño único. Personaliza sus medidas y acabados para que encaje con tu estilo.",
+        "price": "150€",
+        "alt": "Cabecero de acero con diseño de telaraña"
+    }
 ]

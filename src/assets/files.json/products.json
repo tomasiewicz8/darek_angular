@@ -72,6 +72,15 @@
         "alt": "Paralelas de madera robustas para entrenamiento de fuerza y equilibrio"
     },
     {
+        "id": 18,
+        "name": "paralelas_icons",
+        "image": "paralelas_icons",
+        "title": "Paralelas serigrafiadas",
+        "text": "Perfectas para acrobacias y entrenamiento de fuerza con tus logos y textos preferidos. Fabricadas en madera, ofrecen firmeza y estabilidad para cualquier ejercicio.",
+        "price": "26€",
+        "alt": "Paralelas de madera serigrafiadas y robustas para entrenamiento de fuerza y equilibrio"
+    },
+    {
         "id": 8,
         "name": "pulls_fijos",
         "image": "pulls_fijos",

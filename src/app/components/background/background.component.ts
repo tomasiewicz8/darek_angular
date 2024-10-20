@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-background',
@@ -9,4 +9,23 @@ import { Component } from '@angular/core';
 })
 export class BackgroundComponent {
 
+  background: string = "";
+
+  ngOnInit() {
+    this.checkWindowSize()
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.checkWindowSize();
+  }
+
+  checkWindowSize() {
+    if (window.innerWidth > 450) {
+      this.background = "backgroungHome.jpg";
+    } else {
+      this.background = "backgroungHomeTablet.jpg";
+    }
+  }
+  
 }

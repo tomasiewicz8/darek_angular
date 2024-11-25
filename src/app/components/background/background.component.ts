@@ -22,9 +22,9 @@ export class BackgroundComponent {
 
   checkWindowSize() {
     if (window.innerWidth > 450) {
-      this.background = "backgroungHome.jpg";
+      this.background = "backgroungHome.webp";
     } else {
-      this.background = "backgroungHomeTablet.jpg";
+      this.background = "backgroungHomeTablet.webp";
     }
   }
   
